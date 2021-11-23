@@ -3,7 +3,7 @@
 type AuthConfig = {
     keyFilePath: string;
     savedTokensPath: string;
-    tokenInput?(processTokens: any): void;
+    tokenInput?(processTokens: any, authUrl: string): void;
 };
 
 type AudioConfig = {
