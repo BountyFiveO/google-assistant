@@ -1,5 +1,3 @@
-// Type definitions for google-assistant v0.5.3
-
 type AuthConfig = {
     keyFilePath: string;
     savedTokensPath: string;
